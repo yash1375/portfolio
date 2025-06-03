@@ -2,9 +2,7 @@ import { Col, Row } from "antd";
 import HomeIcon from "../assets/Home.svg";
 import Title from "antd/es/typography/Title";
 import Text from "antd/es/typography/Text";
-import { useState, useEffect, useContext } from "react";
-import ScreenContext from "../state/ScreenContext";
-
+import { useState, useEffect } from "react";
 const headlines = [
   "Frontend Developer ",
   "UI/UX Explorer ",
